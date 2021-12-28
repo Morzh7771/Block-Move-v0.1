@@ -1,0 +1,94 @@
+html,body{
+	height : 100%;
+	width : 100%;
+	margin : 0;
+	overflow : hidden;
+	cursor : default;
+	background-color : #eea598;
+}
+.first_div_class{
+    color:wheat;
+    text-align: center;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#first_div{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#main_div{
+	height: 100%;
+	width: 100%;
+	margin : 0;
+	position : absolute;
+}
+#objField{
+    height: 100%;
+	width: 100%;
+	margin : 0;
+	position : absolute;
+    top:0px;
+    left:0px;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #edd5ce;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px inset black;
+    border-radius: 0px 5px 5px 5px;
+    box-sizing: border-box;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #ba9b98;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline;
+    height: auto;
+    width: auto;
+    z-index: 2;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #edd5ce;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 2px inset black;
+    border-radius: 0px 5px 5px 5px;
+    box-sizing: border-box;
+}
+
+/* Links inside the dropdown */
+.dropdowncontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdowncontent a:hover {background-color: #ba9b98}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+#styleDrop{
+    border-bottom: 1px inset black;
+}

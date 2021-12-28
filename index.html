@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <title>что-то с чем-то</title>
+</head>
+
+<body>
+  <div class="dropdown">
+    <button id="dropbtnid" class="dropbtn" onclick="myFunction()" style="border-radius: 0px 5px 5px 5px">
+      Меню
+    </button>
+    <div class="dropdowncontent" id="myDropdown">
+      <div id="styleDrop">
+        <a><span id="width_in">Ширина: 100</span><input type="range" min="1" max="500" id="width_inputs"
+            oninput="sizePic()" value="100" /></a>
+      </div>
+      <div id="styleDrop">
+        <a><span id="height_in">Высота: 100</span><input type="range" min="1" max="500" id="height_inputs"
+            oninput="sizePic()" value="100" /></a>
+      </div>
+      <div>
+        <a><span>Цвет: </span><input type="color" id="color_in" oninput="sizePic()" value="#000000" /></a>
+      </div>
+    </div>
+  </div>
+  <div id="objField">
+    <!--<div class='first_div_class' id='first_div'>Нажмёшь я тебя заебу</div>-->
+  </div>
+  <script src="variables.js"></script>
+  <script src="index.js"></script>
+  <script src="keyEvent.js"></script>
+  <script src="menu.js"></script>
+  <script src="block.js"></script>
+</body>
+
+</html>
