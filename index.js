@@ -11,8 +11,8 @@ function lockSelect() {
 }
 
 function createPlayer(
-    x = Math.floor(Math.random() * (500 - 100) + 100),
-    y = Math.floor(Math.random() * (500 - 100) + 100)
+    x = Math.floor(Math.random() * (600 - 100) + 100),
+    y = Math.floor(Math.random() * (600 - 100) + 100)
 ) {
     const div_main = document.createElement("div");
     div_main.classList.add("first_div_class");
