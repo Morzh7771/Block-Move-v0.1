@@ -27,10 +27,8 @@ function myFunction() {
             objField.children[selected_num].style.height
         );
 
-        width_in.textContent =
-            "Ширина: " + parseInt(objField.children[selected_num].style.width);
-        height_in.textContent =
-            "Высота: " + parseInt(objField.children[selected_num].style.height);
+        width_in.textContent = "Ширина: " + parseInt(objField.children[selected_num].style.width);
+        height_in.textContent = "Высота: " + parseInt(objField.children[selected_num].style.height);
 
         hex = RGBToHex(objField.children[selected_num].style.backgroundColor);
 
